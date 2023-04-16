@@ -102,9 +102,8 @@ img {
   border-color: black;
   border-radius: 1rem;
 }
- 
 
-  .head{
+.head{
     position: absolute;
     top: -7%;
     right: 65%;
@@ -119,7 +118,3 @@ img {
     color: #1a2c3a;
     display: flex;
     padding-bottom: 15px;}
-
-    font{
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
