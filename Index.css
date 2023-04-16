@@ -106,14 +106,14 @@ img {
 
   .head{
     position: absolute;
-    top: -5%;
+    top: -7%;
     right: 65%;
     font-size: 3em;
     color: red;
   }
   .icon{
     position: absolute;
-    top: 290px;
+    top: 255px;
     right: 70%;
     font-size: 2em;
     color: #1a2c3a;
