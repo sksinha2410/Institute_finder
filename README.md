@@ -11,8 +11,7 @@ NOTE: Back-end not integrated
 
 User Guide: Download .zip file  -->  Extract .zip file  -->  click on Index.html                            
 
-Team Member name:
-                  1) Shivam Kumar Sinha
-                  2) Navneet Kumar
-                  3) Nitish Kumar Yadav
-                  4) Murli Manohar
+Team Member name: Shivam Kumar Sinha
+
+
+Video link: https://youtu.be/pjo35RxlwF0
