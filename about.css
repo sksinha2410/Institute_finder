@@ -11,7 +11,7 @@ body {
   align-items: center;
   min-height: 100vh;
 
-  background: url("background.webp") no-repeat;
+  background: url("/photo/background.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -75,23 +75,17 @@ header {
   color: #fff;
   font-weight: 500;
   margin-left: 40px;
-}
-
-.navigation .btnLogin-popup {
-  height: 50px;
-  background: transparent;
-  border: 2px solid #fff;
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1.1em;
-  color: #fff;
-  font-weight: 500;
-  margin-left: 40px;
   transition: 0.5s;
+}
+.navigation .btnLogin-popup a{
+  margin-left: 1px;
 }
 
 .navigation .btnLogin-popup:hover {
   background: #fff;
   color: #162938;
+}
+
+h1{
+  color: red;
 }
