@@ -11,7 +11,7 @@ body {
   align-items: center;
   min-height: 100vh;
 
-  background: url("background.webp") no-repeat;
+  background: url("/photo/background.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -23,7 +23,6 @@ header {
   width: 100%;
   padding: 20px 100px;
   display: flex;
-  /* background: red; */
   justify-content: space-between;
   align-items: center;
   z-index: 99;
@@ -35,10 +34,6 @@ header {
   color: #fff;
   user-select: none;
 }
-/* nav {
-      margin-bottom: 500px;
-
-} */
 
 
 .navigation a {
@@ -81,20 +76,10 @@ header {
   color: #fff;
   font-weight: 500;
   margin-left: 40px;
-}
-
-.navigation .btnLogin-popup {
-  height: 50px;
-  background: transparent;
-  border: 2px solid #fff;
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1.1em;
-  color: #fff;
-  font-weight: 500;
-  margin-left: 40px;
   transition: 0.5s;
+}
+.navigation .btnLogin-popup a{
+  margin-left: 1px;
 }
 
 .navigation .btnLogin-popup:hover {
