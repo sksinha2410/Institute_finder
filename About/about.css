@@ -114,7 +114,7 @@ header {
   padding-bottom: 15px;
   }
 
-.glow {
+.logo {font-size: 2em;
 animation: glow 1.2s ease infinite;
 -moz-animation: glow 1.2s ease infinite;
 -webkit-animation: glow 1.2s ease infinite;
