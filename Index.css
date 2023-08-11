@@ -33,7 +33,16 @@ header {
   color: #fff;
   user-select: none;
 }
-
+.logo{
+      color: #ffffcc;
+      text-shadow: 0 0 5px green,
+          0 0 10px #fff,
+          0 0 20px green,
+          0 0 30px green,
+          0 0 40px green,
+          0 0 55px green,
+          0 0 70px green;
+  }
 .navigation a {
   position: relative;
   font-size: 1.1em;
@@ -123,7 +132,13 @@ img {
     padding-bottom: 15px;}
 
 
-.logo {font-size: 2em;
+
+.head {
+  position: absolute;
+  top: -4%;
+  right: 69%;
+  font-size: 37px;
+    font-family: 'century gothic';
 animation: glow 1.2s ease infinite;
 -moz-animation: glow 1.2s ease infinite;
 -webkit-animation: glow 1.2s ease infinite;
@@ -137,5 +152,6 @@ color: #FED128;
 50% {
 text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
 color: #806914;
+}
 }
 }
