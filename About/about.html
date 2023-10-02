@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Institute Tracker</title>
-    <link rel="stylesheet" href="about.css">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+        
+    <link rel="stylesheet" type="text/css" href="style.css">  
 </head>
-
 <body>
-    <header>
-        <h2 class="logo">Institute Tracker</h2>
-        <nav class="navigation">
-            <a href="/index.html">Home</a>
-            <a href="/About/about.html">About</a>
-            <a href="/Services/Service.html">Services</a>
-            <a href="/contact us/Contact.html">Contact</a>
-            <button class="btnLogin-popup"><a href="/Login/login.html">Login</a></button>
+    <div class="glow">
+        <h1">Sign Up page</h1>
+    </div>
+    
+    <div class="container">
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label>First Name</label>
+                <input type="text"  id="username" placeholder="Enter First Name" autocomplete="off" required>
+            </div>
 
-        </nav>
-    </header>
-<div class="abt">
-    <div class="h">
-    <h2 class="glow">About Us</h2></div>
-    <div><span>&nbsp;</span></div>
-      <div><span>&nbsp;</span></div>
-      <div><span>&nbsp;</span></div>
-      <div><span>&nbsp;</span></div>
-      <div><span>&nbsp;</span></div>
-      <div><span>&nbsp;</span></div>
-    <div class="aaa"> <div><span>&nbsp;</span></div>
-      <div><span>&nbsp;</span></div>
-     
-      <div><span>&nbsp;</span></div>
-Welcome to Institute Tracker, your go-to resource for tracking the latest news, events, and updates from top institutes and educational organizations around the world. Our mission is to provide students, educators, and researchers with a comprehensive platform where they can stay up-to-date with the latest developments in the academic world. With our easy-to-use website, you can quickly and easily find information on everything from admission deadlines and course schedules to research opportunities and job openings.<br>
-<br> At Institute Tracker, we believe that access to information is key to success in today's fast-paced, competitive world. By providing our users with accurate, timely, and relevant information, we aim to help them make informed decisions and achieve their academic and career goals. <br><br>Our team of experienced researchers and writers is dedicated to providing high-quality content that meets the needs of our diverse user base. We pride ourselves on our attention to detail and commitment to accuracy, and we work hard to ensure that all of the information on our site is up-to-date and reliable. <br><br>Whether you're a student looking for the perfect school or a researcher seeking funding opportunities, we hope that you find Institute Tracker to be a valuable resource. Thank you for visiting our site, and please don't hesitate to contact us if you have any questions or feedback.
-</div></div>
- </body>
+            <div class="form-control">
+                <label>Last Name</label>
+                <input type="text" id="lastname" placeholder="Enter Last Name" autocomplete="off" required >
+                
+            </div>
+
+            <div class="form-control">
+                <label>Email</label>
+                <input type="text"  id="email" placeholder="example@gmail.com" autocomplete="off" required>
+                
+            </div>
+
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password"  id="password" placeholder="Enter Your Password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password"  id="cpassword" placeholder="Confirm Password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            
+            <button class="button signup__submit">
+                <span class="button__text">Sign Up</span>
+            </button><br>
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                
+            </div>
+        </form>
+    </div>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
 </html>
